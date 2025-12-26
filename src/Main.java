@@ -1,7 +1,6 @@
 import javax.swing.*;
-public class Main {
-    public static void main(String[] args) {
-
+class Main {
+    static void main() {
         //Create a new window
         JFrame frame = new JFrame("My first GUI");
         frame.setSize(300, 150);
