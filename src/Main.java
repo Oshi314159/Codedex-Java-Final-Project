@@ -4,6 +4,7 @@ class Main {
         //Create a new window
         JFrame frame = new JFrame("My first GUI");
         frame.setSize(300, 150);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null); // absolute positioning
 
         // text field
